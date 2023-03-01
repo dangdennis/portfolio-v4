@@ -4,8 +4,8 @@ export const MENU_LINKS = [
     path: "/",
   },
   {
-    title: "About",
-    path: "/about",
+    title: "Work",
+    path: "/work"
   },
   {
     title: "Blog",
@@ -17,5 +17,5 @@ export const MENU_LINKS = [
 export const SOCIAL_LINKS = {
   github: "https://github.com/dangdennis",
   twitter: "https://twitter.com/dangitdennis",
-  email: "me@example.com",
+  email: "dennis.dang@hey.com",
 };
