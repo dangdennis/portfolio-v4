@@ -13,6 +13,7 @@ const postDate = getFormattedDate(content.data.publishDate);
 ---
 
 <h1 class="title mb-3 sm:mb-1">{content.data.title}</h1>
+<p class="italic">{content.data.description}</p>
 <time datetime={datetime}>{postDate}</time>
 {
 	!!content.data.tags?.length && (
@@ -40,11 +41,12 @@ const postDate = getFormattedDate(content.data.publishDate);
 						class="cactus-link inline-block before:content-['#']"
 						aria-label={`View more blogs with the tag ${tag}`}
 						href={`/tags/${tag}`}
-					>{tag}</a>
+					>
+						{tag}
+					</a>
 					{i < content.data.tags.length - 1 && ", "}
 				</>
 			))}
 		</div>
 	)
 }
-<p class="mt-8">{content.data.description}</p>
