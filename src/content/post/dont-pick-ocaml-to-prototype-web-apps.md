@@ -5,8 +5,6 @@ publishDate: 09-03-2023
 draft: false
 ---
 
-# Don't pick OCaml to prototype web apps
-
 I wanted to build all my new projects in OCaml. It'd be a welcomed change from
 the world of Typescript and Python.
 
