@@ -1,5 +1,5 @@
 ---
-title: Don't pick OCaml to prototype web apps
+title: I'm still more productive prototyping products in Typescript than OCaml
 description: Failing to build web apps for fun and profit
 publishDate: 09-03-2023
 draft: false
@@ -30,9 +30,9 @@ query to select, insert, update my postgres database.
 
 Check out the Caqti code below that executes a vector search with Postgres's
 `pg_embedding`, and returns a list of tuples of results. It's not really the
-simplest code. [ppx_rapper](https://github.com/roddyyaga/ppx_rapper) exists to
+simplest code, although it's very type-safe. An extension [ppx_rapper](https://github.com/roddyyaga/ppx_rapper) exists to
 make writing caqti code easier, but when you compare it to Typescript's Prisma
-or Drizzle, or .NET's EntityFramework or Dapper, life is a bit harder.
+or Drizzle, .NET's EntityFramework or Dapper, or Python's sqlalchemy, life is harder.
 
 ```
 open Caqti_request.Infix
@@ -66,3 +66,5 @@ this one aside whenever I want to build quick web apps. What are my other
 choices? I don't really know. All I do know is that I still want to pick a fun
 programming language. Half the fun is the tool. I flip-flop between Rescript,
 F#, or just plain old Typescript and Python. Or the occasional attempts at Rust.
+
+I still hope OCaml can be "my thing" later. It has great qualities.
