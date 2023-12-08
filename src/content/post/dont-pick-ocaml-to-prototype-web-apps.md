@@ -2,7 +2,7 @@
 title: I'm still more productive prototyping products in Typescript than OCaml
 description: Failing to build web apps for fun and profit
 publishDate: 09-03-2023
-draft: false
+draft: true
 ---
 
 I wanted to build all my new projects in OCaml. It'd be a welcomed change from
